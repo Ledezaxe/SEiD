@@ -1,0 +1,378 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*
+ * ----
+ * Généralités
+ * ----
+ */
+
+html {
+  height: 100%;
+}
+
+body {
+	font: 12px Arial;
+    min-height: 100%;
+    background-color: #88D9FF;
+}
+
+ul, ol {
+	list-style: none;
+	line-height: 1.3em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: white;
+}
+
+a:hover {
+	color: #D0D0D0;
+}
+
+a:visited {
+	color: #B0B0B0;
+}
+
+p {
+	line-height: 1.3em;
+}
+
+
+/*
+ * ----
+ * Header
+ * ----
+ */
+
+.entete {
+	width: 100%;
+	height: 130px;
+	background-color: #303030;
+    float: right;
+}
+
+.entete h1 a{
+	float: left;
+	width: 20%;
+	height: 130px;
+	padding: 5px;
+	text-indent: -9999px;
+	background: url(../images/Seid.png) transparent no-repeat;
+}
+
+nav#menu ul {
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 0;
+	margin-left: 0;
+	
+}
+
+nav#menu ul li {
+	float: left;
+	border-right : 1px solid white;
+	padding : 0 10px;
+}
+
+nav#menu ul a:hover {
+	text-decoration: underline;
+}
+
+form#search {
+	float: right;
+	width: 185px;
+	margin-top: 8px;
+	margin-right: 30px;
+	margin-bottom: 0;
+	margin-left: 0;
+    color: white;
+}
+
+#searchText {
+	border: 3px inset black;
+	margin: 0;
+    border-right: none;
+}
+
+#searchBtn {
+	margin: 0;
+	margin-left: -25px;
+	color: black;
+	background-color: white;
+	border: 2px inset black;
+	border-left:none;
+	font-weight: bold;
+}
+
+/*
+ * ----
+ * Menu categorie
+ * ----
+ */
+
+nav#menu-categorie{
+	clear: right;
+	margin-top: 70px;
+    margin-left: 10%;
+}
+
+#menu-categorie li {
+	float: left;
+	border-right : 1px solid white;
+	padding : 0 20px;
+}
+
+#menu-categorie li a:hover {
+	text-decoration: underline;
+}
+
+/*
+ * ----
+ * Footer
+ * ----
+ */
+
+footer {
+	width: 100%;
+    height: 80px;
+	background-color: #303030;
+	text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p{
+	padding-top : 30px;
+}
+
+a#goto-admin {
+	text-align: center;
+    float: right;
+    margin-right: 2%;
+    margin-top: -25px;
+    width: 50px;
+    background-color: #303030;
+    height: 40px;
+}
+
+a#goto-admin img{
+    margin-top: 3px;
+    margin-left: 5%;
+}
+
+/*
+ * ----
+ * Menu categorie
+ * ----
+ */
+
+nav#menu-categorie{
+	clear: right;
+	margin-top: 70px;
+    margin-left: 10%;
+}
+
+#menu-categorie li {
+	float: left;
+	border-right : 1px solid white;
+	padding : 0 20px;
+}
+
+#menu-categorie li a:hover {
+	text-decoration: underline;
+}
+
+/*
+ * ----
+ * Pour toutes les pages
+ * ----
+ */
+
+section header h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*
+ * ----
+ * Home page	
+ * ----
+ */
+
+ section {
+	clear: both;
+	margin : 0 auto 140px auto;
+	padding: 10px 5px;
+    overflow: hidden;
+}
+
+section header {
+	text-indent: 1em;
+	font-size: 2em;
+    margin: 15px auto 20px auto;
+	background-color: #BCC2BC;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+    width : 85%;
+}
+
+section header h3{
+    margin-top: 10px;
+}
+
+.ss-titre {
+	font-size: 14px;
+	text-indent: 40px;
+}
+
+ul#badge-list {
+	overflow:hidden;
+    width: 85%;
+    margin: auto;
+}
+
+li.badge {
+	float : left;
+	position: relative;
+	width: 31%;
+	height: 100px;
+	margin: 1%;
+	padding: 5px 0;
+	background-color: #E8FFFF;
+	border: 1px solid black;
+}
+
+.badge h3 {
+	text-align: center;
+	height: 40px;
+}
+
+.badge strong {
+	display: block;
+	font-size: 18px;
+	text-align: center;
+}
+
+.badge p {
+	font-size: 12px;
+	text-align: justify;
+	padding: 5px;
+}
+
+.badge a {
+	display: block;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	position: absolute;
+	bottom: 0;
+	right:0;
+
+	font-size: 12px;
+	text-align: center;
+	color: black;
+	background-color: #d4ceb4;
+	font-weight: bold;
+}
+
+/*
+ * ----
+ * Profil
+ * ----
+ */
+
+article#detail-personne{
+	clear: both;
+	background-color: #eae5ce;
+	width: 800px;
+	margin : 0 auto;
+	padding: 10px 5px;
+	background-color: #ffffff;
+	overflow:hidden;
+}
+
+
+article#detail-personne>header {
+	text-indent: 1em;
+	font-size: 2em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #322c1f;
+	background-color: #f7ddae;
+	border-top: 1px solid #edab39;
+	border-bottom: 1px solid #edab39;
+}
+
+article#detail-personne img {
+	float: left;
+}
+
+article#detail-personne strong {
+	display: block;
+	margin: 20px 40px;
+	font-size: 3em;
+	text-align: right;
+}
+
+article#detail-personne p {
+	margin-top : 50px;
+}
+
+/*
+ * ----
+ * Ajout
+ * ----
+ */
+
+div{
+    border: 2px solid grey;
+    width: 50%;
+    margin: auto;
+}
+
+div form{
+    margin: 15px auto 10px 10%;
+}
+
+div p{
+    margin-left: 10%;
+}
+
+div form label{
+	display: block;
+	width: 25%;
+    float: left;
+}
+
+div form input{
+    margin-bottom: 10px;
+}
+
+#btnSubmit{
+    margin-left: 37%;
+    border: 1px solid grey;
+    padding: 2px 4px 2px 4px;
+}
+
+/*
+ * ----
+ * Recherche
+ * ----
+ */
+
+div#no-result {
+	width: 100%;
+	margin: 100px 0;
+	text-align: center;
+}
